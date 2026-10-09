@@ -1,6 +1,5 @@
 # Scheduling contract
 
-Source: WOIA Real Estate eb0a7278188b2f9968e21ed4299f08184d864cac; ADR-0026/0027/0029/0030 and docs/17,21,22,24,25.
 
 Customer Service alone creates/reschedules/cancels appointments. Customer Service, Sales, Leasing, Property Management and Operations may receive scoped availability/read/status. Every operation requires a fresh exact host authority and accepted source; status requires attributable verified evidence. No calendar vendor is selected.
 
