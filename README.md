@@ -2,7 +2,7 @@
 
 Customer Service-owned appointments with scoped reads, separate booking/confirmation/attendance, and no embedded external notifications.
 
-Native thin shared provider, version 0.5.6. Agent Plugin 1.0.0 distribution; no orchestrator, MCP server or chosen database.
+Native thin shared provider, version 0.5.7. Agent Plugin 1.0.0 distribution; no orchestrator, MCP server or chosen database.
 
 - [Skill](skills/woia-scheduling/SKILL.md)
 - [Contract](skills/woia-scheduling/references/CONTRACT.md)
@@ -10,7 +10,7 @@ Native thin shared provider, version 0.5.6. Agent Plugin 1.0.0 distribution; no 
 
 Actions: `appointment.availability.read`, `appointment.read`, `appointment.create`, `appointment.reschedule`, `appointment.cancel`, `appointment.status.observe`.
 
-Run `mise run ci:fast` for source, schema and portable payload checks. Commit the candidate, then run `mise run plugin:certify-thin --repo <absolute-provider-path>` from Ecosystem v0.5.6.
+Run `mise run ci:fast` for source, schema and portable payload checks. Commit the candidate, then run `mise run plugin:certify-thin --repo <absolute-provider-path>` from Ecosystem v0.5.7.
 
 A host must supply fresh authenticated authority, source and atomic persistence ports. No credentials or private organization values are included. Local synthetic PASS does not imply external adapter qualification, admission, release, Operator E2E or Production Ready.
 
